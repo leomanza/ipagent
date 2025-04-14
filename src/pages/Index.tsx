@@ -11,7 +11,7 @@ const Index = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
             <div className="inline-block mb-4 px-4 py-1 bg-amber-100 rounded-full">
-              <span className="text-amber-800 font-medium text-sm">AI-Powered IP Staking Agent</span>
+              <span className="text-amber-800 font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
@@ -19,8 +19,8 @@ const Index = () => {
             </h1>
             
             <p className="text-lg text-gray-700 mb-8">
-              IPAgent simplifies the process of staking IP tokens through conversational AI. 
-              No technical expertise required — just talk to our agent, and we'll handle the rest.
+              IPAgent simplifies the process of staking IP tokens through conversational AI, 
+              powered by the Story Protocol Liquid Staking SDK. Stake your IP tokens to receive stIP and let our agent handle the technical details.
             </p>
             
             <div className="flex flex-wrap gap-4">
@@ -50,7 +50,7 @@ const Index = () => {
                   <p className="text-gray-800">I want to stake my IP tokens</p>
                 </div>
                 <div className="bg-amber-100 rounded-lg p-3 ml-auto max-w-[80%]">
-                  <p className="text-amber-800">I can help you stake your IP tokens! How many would you like to stake?</p>
+                  <p className="text-amber-800">I can help you stake your IP tokens! You'll receive stIP tokens in return. How many would you like to stake?</p>
                 </div>
               </div>
             </div>
@@ -64,7 +64,7 @@ const Index = () => {
           <h2 className="text-3xl font-bold mb-4 text-gray-900">Craft Intelligence, Premium Results</h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
             Like a perfectly crafted IPA, our agent combines the finest ingredients: 
-            cutting-edge AI and the Story Protocol ecosystem.
+            cutting-edge AI and the Meta Pool Story Protocol Liquid Staking SDK.
           </p>
         </div>
         
@@ -81,8 +81,8 @@ const Index = () => {
           />
           <FeatureCard
             icon={<Coins className="h-8 w-8 text-amber-600" />}
-            title="Track Rewards"
-            description="Monitor your staking rewards and earnings through simple conversations."
+            title="Liquid Staking"
+            description="Receive stIP tokens when you stake your IP tokens, maintaining liquidity while earning rewards."
           />
           <FeatureCard
             icon={<LineChart className="h-8 w-8 text-amber-600" />}
@@ -112,12 +112,12 @@ const Index = () => {
             <StepCard
               number="02"
               title="Chat with IPAgent"
-              description="Tell our AI what you want to do in plain language."
+              description="Tell our AI what you want to do in plain language. Request to stake your IP tokens and receive stIP in return."
             />
             <StepCard
               number="03" 
               title="Confirm & Earn"
-              description="Approve the transaction and start earning staking rewards."
+              description="Approve the transaction and start earning staking rewards with your liquid stIP tokens."
             />
           </div>
         </div>
@@ -129,7 +129,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4 text-white">Ready to start brewing passive income?</h2>
             <p className="text-amber-50 mb-8">
-              Join the community of IP token stakers who are simplifying their crypto journey with IPAgent.
+              Join the Meta Pool community of IP token stakers who are simplifying their crypto journey with IPAgent. Stake IP, receive stIP, and earn rewards.
             </p>
             <Button className="bg-white text-amber-600 hover:bg-amber-50 font-medium px-8 py-6 rounded-lg text-lg">
               Launch IPAgent
@@ -156,6 +156,7 @@ const Index = () => {
           </div>
           <div className="border-t border-gray-800 pt-8 mt-8 text-center text-sm">
             <p>© 2025 IPAgent. Brewing the agentic future. All rights reserved.</p>
+            <p className="mt-2">Powered by <a href="#" className="text-amber-400 hover:underline">Meta Pool</a> using the <a href="https://github.com/leomanza/metapool-story-liquid-staking-sdk" className="text-amber-400 hover:underline" target="_blank" rel="noopener noreferrer">Story Protocol Liquid Staking SDK</a></p>
           </div>
         </div>
       </footer>
