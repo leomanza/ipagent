@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,6 +62,23 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
+				},
+				// IPAgent brand colors
+				ipagent: {
+					amber: {
+						DEFAULT: '#D97706', // amber-600
+						light: '#FEF3C7', // amber-100
+						dark: '#92400E', // amber-800
+					},
+					navy: {
+						DEFAULT: '#1E3A8A', // blue-900
+						light: '#DBEAFE', // blue-100
+					},
+					gray: {
+						dark: '#111827', // gray-900
+						DEFAULT: '#374151', // gray-700
+						light: '#F3F4F6', // gray-100
+					}
 				}
 			},
 			borderRadius: {
@@ -89,7 +107,12 @@ export default {
 			animation: {
 				'accordion-down': 'accordion-down 0.2s ease-out',
 				'accordion-up': 'accordion-up 0.2s ease-out'
-			}
+			},
+			fontFamily: {
+				sans: ['Inter', 'sans-serif'],
+				display: ['Montserrat', 'sans-serif'],
+				body: ['Source Sans Pro', 'sans-serif'],
+			},
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
