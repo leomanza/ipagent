@@ -1,4 +1,3 @@
-
 import type { Config } from "tailwindcss";
 
 export default {
@@ -63,21 +62,21 @@ export default {
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
 				},
-				// IPAgent brand colors
 				ipagent: {
 					amber: {
-						DEFAULT: '#D97706', // amber-600
-						light: '#FEF3C7', // amber-100
-						dark: '#92400E', // amber-800
+						DEFAULT: '#FFBF00',
+						light: '#FFC300',
+						dark: '#FF8C42'
 					},
-					navy: {
-						DEFAULT: '#1E3A8A', // blue-900
-						light: '#DBEAFE', // blue-100
+					accent: {
+						foam: '#FFF8E1',
+						hops: '#6BA539',
+						brown: '#8B5E3C'
 					},
-					gray: {
-						dark: '#111827', // gray-900
-						DEFAULT: '#374151', // gray-700
-						light: '#F3F4F6', // gray-100
+					gradient: {
+						'beer-light': 'linear-gradient(135deg, #FFBF00 0%, #FFC300 100%)',
+						'beer-dark': 'linear-gradient(135deg, #FF8C42 0%, #FFBF00 100%)',
+						'foam-haze': 'linear-gradient(180deg, rgba(255,248,225,0.7) 0%, rgba(255,248,225,1) 100%)'
 					}
 				}
 			},
@@ -113,6 +112,12 @@ export default {
 				display: ['Montserrat', 'sans-serif'],
 				body: ['Source Sans Pro', 'sans-serif'],
 			},
+			backgroundImage: {
+				'beer-texture': 'linear-gradient(to right, rgba(255,191,0,0.1) 0%, rgba(255,195,0,0.1) 100%)',
+			},
+			boxShadow: {
+				'beer-glass': '0 4px 6px rgba(255,191,0,0.1), 0 1px 3px rgba(255,191,0,0.08)',
+			}
 		}
 	},
 	plugins: [require("tailwindcss-animate")],
