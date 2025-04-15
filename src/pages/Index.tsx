@@ -1,20 +1,21 @@
+
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRightCircle, Zap, Shield, Coins, LineChart } from "lucide-react";
 
 const Index = () => {
   return (
-    <div className="min-h-screen bg-gradient-to-b from-ipagent-accent-foam to-white">
+    <div className="min-h-screen bg-gradient-to-b from-amber-50 to-white">
       {/* Hero Section */}
-      <header className="container mx-auto pt-24 pb-16 px-4 bg-beer-texture">
+      <header className="container mx-auto pt-24 pb-16 px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
-            <div className="inline-block mb-4 px-4 py-1 bg-ipagent-amber-light/20 rounded-full">
-              <span className="text-ipagent-amber-dark font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
+            <div className="inline-block mb-4 px-4 py-1 bg-amber-100 rounded-full">
+              <span className="text-amber-800 font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-              <span className="text-ipagent-amber">Brewing</span> the agentic future of token staking
+              <span className="text-amber-600">Brewing</span> the agentic future of token staking
             </h1>
             
             <p className="text-lg text-gray-700 mb-8">
@@ -23,10 +24,10 @@ const Index = () => {
             </p>
             
             <div className="flex flex-wrap gap-4">
-              <Button className="bg-ipagent-amber hover:bg-ipagent-amber-dark text-white font-medium px-6 py-6 rounded-lg shadow-beer-glass">
+              <Button className="bg-amber-600 hover:bg-amber-700 text-white font-medium px-6 py-6 rounded-lg">
                 Get Started <ArrowRightCircle className="ml-2 h-5 w-5" />
               </Button>
-              <Button variant="outline" className="border-ipagent-amber text-ipagent-amber hover:bg-ipagent-accent-foam font-medium px-6 py-6 rounded-lg">
+              <Button variant="outline" className="border-amber-600 text-amber-600 hover:bg-amber-50 font-medium px-6 py-6 rounded-lg">
                 Learn More
               </Button>
             </div>
@@ -124,13 +125,13 @@ const Index = () => {
       
       {/* CTA Section */}
       <section className="container mx-auto py-20 px-4">
-        <div className="bg-gradient-to-r from-ipagent-amber to-ipagent-amber-light rounded-xl p-8 md:p-12 shadow-lg">
+        <div className="bg-gradient-to-r from-amber-600 to-amber-400 rounded-xl p-8 md:p-12 shadow-lg">
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4 text-white">Ready to start brewing passive income?</h2>
-            <p className="text-ipagent-accent-foam mb-8">
+            <p className="text-amber-50 mb-8">
               Join the Meta Pool community of IP token stakers who are simplifying their crypto journey with IPAgent. Stake IP, receive stIP, and earn rewards.
             </p>
-            <Button className="bg-white text-ipagent-amber hover:bg-ipagent-accent-foam font-medium px-8 py-6 rounded-lg text-lg">
+            <Button className="bg-white text-amber-600 hover:bg-amber-50 font-medium px-8 py-6 rounded-lg text-lg">
               Launch IPAgent
             </Button>
           </div>
