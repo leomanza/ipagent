@@ -14,6 +14,10 @@ const Index = () => {
               <span className="text-amber-800 font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
             </div>
             
+            <div className="mb-6 flex justify-center lg:justify-start">
+              <IPAgentLogo size="lg" />
+            </div>
+
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
               <span className="text-amber-600">Brewing</span> the agentic future of token staking
             </h1>
@@ -141,7 +145,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="mb-6 md:mb-0 flex items-center">
-              <IPAgentLogo size="md" variant="text" className="text-white" />
+              <IPAgentLogo size="md" variant="logo-only" className="text-white" />
             </div>
             
             <div className="flex gap-6">
