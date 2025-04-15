@@ -2,6 +2,7 @@
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRightCircle, Zap, Shield, Coins, LineChart } from "lucide-react";
+import IPAgentLogo from "@/components/IPAgentLogo";
 
 const Index = () => {
   return (
@@ -12,6 +13,10 @@ const Index = () => {
           <div className="max-w-2xl">
             <div className="inline-block mb-4 px-4 py-1 bg-amber-100 rounded-full">
               <span className="text-amber-800 font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
+            </div>
+            
+            <div className="flex items-center mb-6">
+              <IPAgentLogo variant="conversation" size={50} />
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
@@ -143,8 +148,8 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="mb-6 md:mb-0 flex items-center">
-              <div className="h-10 w-10 rounded-full bg-amber-600 mr-3"></div>
-              <span className="text-xl font-bold text-white">IPAgent</span>
+              <IPAgentLogo variant="coaster" size={40} className="mr-2" />
+              <span className="text-xl font-bold text-white ml-2">IPAgent</span>
             </div>
             
             <div className="flex gap-6">
