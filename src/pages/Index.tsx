@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRightCircle, Zap, Shield, Coins, LineChart } from "lucide-react";
@@ -98,8 +97,8 @@ const Index = () => {
           <div className="text-center mb-16">
             <h2 className="text-3xl font-bold mb-4 text-gray-900">The Brewing Process</h2>
             <p className="text-gray-700 max-w-2xl mx-auto">
-              Our digital brewertender works behind the scenes to craft your liquid staking tokens.
-              Visit our virtual taproom, chat with IPAgent, and we'll serve up freshly minted stIP tokens.
+              Our process is as simple as enjoying your favorite craft beer.
+              Just chat with IPAgent and let us handle the technical details.
             </p>
           </div>
           
