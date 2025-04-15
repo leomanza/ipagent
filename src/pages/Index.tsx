@@ -1,4 +1,4 @@
-
+import React from 'react';
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRightCircle, Zap, Shield, Coins, LineChart } from "lucide-react";
@@ -10,26 +10,33 @@ const Index = () => {
       <header className="container mx-auto pt-24 pb-16 px-4">
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
-            <div className="inline-block mb-4 px-4 py-1 bg-amber-100 rounded-full">
-              <span className="text-amber-800 font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
-            </div>
-            
-            <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-              <span className="text-amber-600">Brewing</span> the agentic future of token staking
-            </h1>
-            
-            <p className="text-lg text-gray-700 mb-8">
-              IPAgent simplifies the process of staking IP tokens through conversational AI, 
-              powered by the Story Protocol Liquid Staking SDK. Stake your IP tokens to receive stIP and let our agent handle the technical details.
-            </p>
-            
-            <div className="flex flex-wrap gap-4">
-              <Button className="bg-amber-600 hover:bg-amber-700 text-white font-medium px-6 py-6 rounded-lg">
-                Get Started <ArrowRightCircle className="ml-2 h-5 w-5" />
-              </Button>
-              <Button variant="outline" className="border-amber-600 text-amber-600 hover:bg-amber-50 font-medium px-6 py-6 rounded-lg">
-                Learn More
-              </Button>
+            <div className="mb-8">
+              <img 
+                src="/images/ipagent-logo.png" 
+                alt="IPAgent Logo" 
+                className="h-24 w-auto mb-4"
+              />
+              <div className="inline-block mb-4 px-4 py-1 bg-amber-100 rounded-full">
+                <span className="text-amber-800 font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
+              </div>
+              
+              <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
+                <span className="text-amber-600">Brewing</span> the agentic future of token staking
+              </h1>
+              
+              <p className="text-lg text-gray-700 mb-8">
+                IPAgent simplifies the process of staking IP tokens through conversational AI, 
+                powered by the Story Protocol Liquid Staking SDK. Stake your IP tokens to receive stIP and let our agent handle the technical details.
+              </p>
+              
+              <div className="flex flex-wrap gap-4">
+                <Button className="bg-amber-600 hover:bg-amber-700 text-white font-medium px-6 py-6 rounded-lg">
+                  Get Started <ArrowRightCircle className="ml-2 h-5 w-5" />
+                </Button>
+                <Button variant="outline" className="border-amber-600 text-amber-600 hover:bg-amber-50 font-medium px-6 py-6 rounded-lg">
+                  Learn More
+                </Button>
+              </div>
             </div>
           </div>
           
@@ -143,7 +150,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="mb-6 md:mb-0 flex items-center">
-              <div className="h-10 w-10 rounded-full bg-amber-600 mr-3"></div>
+              
               <span className="text-xl font-bold text-white">IPAgent</span>
             </div>
             
