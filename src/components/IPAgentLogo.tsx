@@ -22,14 +22,17 @@ const IPAgentLogo = ({ size = 'md', variant = 'default', className = '' }: IPAge
     xl: 'text-xl',
   };
 
+  const logoSrc = '/ipagent-logo.png';
+
   if (variant === 'text') {
     return (
       <div className={`flex items-center ${className}`}>
-        <div className={`relative ${sizeClasses[size]}`}>
-          <div className="absolute inset-0 bg-amber-100 rounded-full"></div>
-          <div className="absolute inset-[15%] bg-amber-600 rounded-full"></div>
-        </div>
-        <span className={`ml-2 font-bold ${textSizeClasses[size]}`}>
+        <img 
+          src={logoSrc} 
+          alt="IPAgent Logo" 
+          className={`mr-2 ${sizeClasses[size]}`} 
+        />
+        <span className={`font-bold ${textSizeClasses[size]}`}>
           <span className="text-amber-600">IP</span>
           <span className="text-gray-900">Agent</span>
         </span>
@@ -39,18 +42,20 @@ const IPAgentLogo = ({ size = 'md', variant = 'default', className = '' }: IPAge
 
   if (variant === 'logo-only') {
     return (
-      <div className={`relative ${sizeClasses[size]} ${className}`}>
-        <div className="absolute inset-0 bg-amber-100 rounded-full"></div>
-        <div className="absolute inset-[15%] bg-amber-600 rounded-full"></div>
-      </div>
+      <img 
+        src={logoSrc} 
+        alt="IPAgent Logo" 
+        className={`${sizeClasses[size]} ${className}`} 
+      />
     );
   }
 
   return (
-    <div className={`relative ${sizeClasses[size]} ${className}`}>
-      <div className="absolute inset-0 bg-amber-100 rounded-full"></div>
-      <div className="absolute inset-[15%] bg-amber-600 rounded-full"></div>
-    </div>
+    <img 
+      src={logoSrc} 
+      alt="IPAgent Logo" 
+      className={`${sizeClasses[size]} ${className}`} 
+    />
   );
 };
 
