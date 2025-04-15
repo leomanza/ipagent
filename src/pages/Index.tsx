@@ -16,7 +16,7 @@ const Index = () => {
             </div>
             
             <div className="mb-6">
-              <Isologo size="xl" />
+              <Isologo size="xl" variant="ring" />
             </div>
             
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
@@ -42,11 +42,10 @@ const Index = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-amber-600 to-amber-400 rounded-full blur opacity-75"></div>
             <div className="bg-white p-6 rounded-lg shadow-lg relative">
               <div className="flex items-center mb-4">
-                <div className="h-10 w-10 rounded-full bg-amber-100 flex items-center justify-center">
-                  <div className="h-6 w-6 rounded-full bg-amber-600"></div>
+                <div className="mr-3">
+                  <Isologo size="sm" variant="bubble" />
                 </div>
                 <div className="ml-3">
-                  <p className="font-semibold text-gray-900">IPAgent</p>
                   <p className="text-sm text-gray-500">How can I help you today?</p>
                 </div>
               </div>
@@ -62,6 +61,24 @@ const Index = () => {
           </div>
         </div>
       </header>
+      
+      {/* Logo Showcase Section */}
+      <section className="container mx-auto py-12 px-4">
+        <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+          <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-sm">
+            <h3 className="text-lg font-semibold mb-4 text-gray-900">Default Isologo</h3>
+            <Isologo size="lg" variant="default" />
+          </div>
+          <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-sm">
+            <h3 className="text-lg font-semibold mb-4 text-gray-900">Ring Conversation Style</h3>
+            <Isologo size="lg" variant="ring" />
+          </div>
+          <div className="flex flex-col items-center p-6 bg-white rounded-lg shadow-sm">
+            <h3 className="text-lg font-semibold mb-4 text-gray-900">Message Bubble Style</h3>
+            <Isologo size="lg" variant="bubble" />
+          </div>
+        </div>
+      </section>
       
       {/* Features Section */}
       <section className="container mx-auto py-20 px-4">
@@ -148,7 +165,7 @@ const Index = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center mb-8">
             <div className="mb-6 md:mb-0">
-              <Isologo size="md" className="text-white" />
+              <Isologo size="md" variant="ring" className="text-white" />
             </div>
             
             <div className="flex gap-6">
