@@ -1,4 +1,3 @@
-
 import { Button } from "@/components/ui/button";
 import { Card, CardContent } from "@/components/ui/card";
 import { ArrowRightCircle, Zap, Shield, Coins, LineChart } from "lucide-react";
@@ -61,10 +60,10 @@ const Index = () => {
       {/* Features Section */}
       <section className="container mx-auto py-20 px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900">Craft Intelligence, Premium Results</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Craft Intelligence, Unleashed Potential</h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
-            Like a perfectly crafted IPA, our agent combines the finest ingredients: 
-            cutting-edge AI and the Meta Pool Story Protocol Liquid Staking SDK.
+            Our agent harnesses cutting-edge AI with the Meta Pool Story Protocol Liquid Staking SDK - an innovative technology 
+            <span className="font-semibold text-amber-600"> built in-house</span> by our dedicated team.
           </p>
         </div>
         
