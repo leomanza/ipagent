@@ -15,7 +15,7 @@ const Index = () => {
             </div>
             
             <div className="mb-6 flex justify-center lg:justify-start">
-              <IPAgentLogo size="lg" variant="text" />
+              <IPAgentLogo size="lg" />
             </div>
 
             <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
@@ -41,9 +41,7 @@ const Index = () => {
             <div className="absolute -inset-0.5 bg-gradient-to-r from-amber-600 to-amber-400 rounded-lg blur opacity-75"></div>
             <div className="bg-white p-6 rounded-lg shadow-lg relative">
               <div className="flex items-center mb-4">
-                <div className="w-10 h-10 flex-shrink-0">
-                  <IPAgentLogo size="md" />
-                </div>
+                <IPAgentLogo size="md" />
                 <div className="ml-3">
                   <p className="font-semibold text-gray-900">IPAgent</p>
                   <p className="text-sm text-gray-500">How can I help you today?</p>
