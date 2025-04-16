@@ -21,7 +21,7 @@ const Index = () => {
               </div> */}
               
               <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
-                <span className="text-amber-600">Brewing</span> the agentic future of token staking
+                <span className="text-amber-600">Brewing</span> the agentic future of liquid staking
               </h1>
               
               <p className="text-lg text-gray-700 mb-8">
