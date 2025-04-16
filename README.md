@@ -1,73 +1,82 @@
-# Welcome to your Lovable project
 
-## Project info
+# IPAgent - Brewing the Agentic Future of Token Staking
 
-**URL**: https://lovable.dev/projects/7a3a37e8-d1d3-4cff-93e5-947aecb000a5
+<img src="public/brand-kit/logos/ipagent-logo.png" alt="IPAgent Logo" width="150"/>
 
-## How can I edit this code?
+## Overview
 
-There are several ways of editing your application.
+IPAgent is a platform that revolutionizes token staking through advanced AI-powered automation. We combine blockchain technology and artificial intelligence to create a seamless staking experience for cryptocurrency investors.
 
-**Use Lovable**
+## Features
 
-Simply visit the [Lovable Project](https://lovable.dev/projects/7a3a37e8-d1d3-4cff-93e5-947aecb000a5) and start prompting.
+- **Automated Staking**: Intelligent agent-based staking decisions
+- **Cross-Chain Support**: Stake across multiple blockchain networks
+- **Risk Assessment**: AI-driven risk analysis and recommendations
+- **Portfolio Management**: Holistic view of all your staking positions
+- **Real-time Analytics**: Up-to-date performance metrics and insights
 
-Changes made via Lovable will be committed automatically to this repo.
+## Getting Started
 
-**Use your preferred IDE**
+### Prerequisites
 
-If you want to work locally using your own IDE, you can clone this repo and push changes. Pushed changes will also be reflected in Lovable.
+- Node.js v18 or higher
+- npm v9 or higher
 
-The only requirement is having Node.js & npm installed - [install with nvm](https://github.com/nvm-sh/nvm#installing-and-updating)
-
-Follow these steps:
+### Installation
 
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
-git clone <YOUR_GIT_URL>
+# Clone the repository
+git clone https://github.com/yourusername/ipagent.git
 
-# Step 2: Navigate to the project directory.
-cd <YOUR_PROJECT_NAME>
+# Navigate to project directory
+cd ipagent
 
-# Step 3: Install the necessary dependencies.
-npm i
+# Install dependencies
+npm install
 
-# Step 4: Start the development server with auto-reloading and an instant preview.
+# Start the development server
 npm run dev
 ```
 
-**Edit a file directly in GitHub**
+### Building for Production
 
-- Navigate to the desired file(s).
-- Click the "Edit" button (pencil icon) at the top right of the file view.
-- Make your changes and commit the changes.
+```sh
+npm run build
+```
 
-**Use GitHub Codespaces**
+## SDK Integration
 
-- Navigate to the main page of your repository.
-- Click on the "Code" button (green button) near the top right.
-- Select the "Codespaces" tab.
-- Click on "New codespace" to launch a new Codespace environment.
-- Edit files directly within the Codespace and commit and push your changes once you're done.
+Our SDK provides developers with tools to integrate IPAgent functionality into their own applications:
 
-## What technologies are used for this project?
+- [IPAgent SDK GitHub Repository](https://github.com/ipagent/sdk)
+- [SDK Documentation](https://docs.ipagent.io/sdk)
+- [SDK Integration Examples](https://github.com/ipagent/examples)
 
-This project is built with:
+## Brand Assets
 
-- Vite
-- TypeScript
-- React
-- shadcn-ui
-- Tailwind CSS
+All official brand assets are available in the `public/brand-kit` directory:
 
-## How can I deploy this project?
+- Logos and icons
+- Color palette specifications
+- Typography guidelines
+- Social media assets
+- Brand usage guidelines
 
-Simply open [Lovable](https://lovable.dev/projects/7a3a37e8-d1d3-4cff-93e5-947aecb000a5) and click on Share -> Publish.
+## Contributing
 
-## Can I connect a custom domain to my Lovable project?
+We welcome contributions from the community. Please read our [Contributing Guidelines](CONTRIBUTING.md) before submitting pull requests.
 
-Yes, you can!
+## License
 
-To connect a domain, navigate to Project > Settings > Domains and click Connect Domain.
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
-Read more here: [Setting up a custom domain](https://docs.lovable.dev/tips-tricks/custom-domain#step-by-step-guide)
+## Contact
+
+- Website: [https://ipagent.io](https://ipagent.io)
+- Email: [contact@ipagent.io](mailto:contact@ipagent.io)
+- Twitter: [@IPAgentHQ](https://twitter.com/IPAgentHQ)
+
+## Acknowledgments
+
+- Thanks to all contributors who have helped shape IPAgent
+- Special thanks to our early adopters and community members
