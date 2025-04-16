@@ -1,19 +1,12 @@
 
 # IPAgent - Brewing the Agentic Future of Token Staking
-
-<img src="public/brand-kit/logos/ipagent-logo.png" alt="IPAgent Logo" width="150"/>
+<div align=center>
+<img src="public/images/IPAgent-logo.png" alt="IPAgent Logo" width="150"/>
+</div>
 
 ## Overview
 
 IPAgent is a platform that revolutionizes token staking through advanced AI-powered automation. We combine blockchain technology and artificial intelligence to create a seamless staking experience for cryptocurrency investors.
-
-## Features
-
-- **Automated Staking**: Intelligent agent-based staking decisions
-- **Cross-Chain Support**: Stake across multiple blockchain networks
-- **Risk Assessment**: AI-driven risk analysis and recommendations
-- **Portfolio Management**: Holistic view of all your staking positions
-- **Real-time Analytics**: Up-to-date performance metrics and insights
 
 ## Getting Started
 
@@ -32,25 +25,24 @@ git clone https://github.com/yourusername/ipagent.git
 cd ipagent
 
 # Install dependencies
-npm install
+bun install
 
 # Start the development server
-npm run dev
+bun dev
 ```
 
 ### Building for Production
 
 ```sh
-npm run build
+bun build
 ```
 
 ## SDK Integration
 
 Our SDK provides developers with tools to integrate IPAgent functionality into their own applications:
 
-- [IPAgent SDK GitHub Repository](https://github.com/ipagent/sdk)
-- [SDK Documentation](https://docs.ipagent.io/sdk)
-- [SDK Integration Examples](https://github.com/ipagent/examples)
+- [Story Liquid Staking SDK Repository](https://github.com/leomanza/metapool-story-liquid-staking-sdk)
+- [Story Liquid Staking SDK Integration Examples](https://github.com/leomanza/metapool-story-liquid-staking-sdk-test)
 
 ## Brand Assets
 
@@ -72,11 +64,8 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Contact
 
-- Website: [https://ipagent.io](https://ipagent.io)
-- Email: [contact@ipagent.io](mailto:contact@ipagent.io)
-- Twitter: [@IPAgentHQ](https://twitter.com/IPAgentHQ)
+- Website: TBD
+- Email: TBD
+- Twitter: [IPAgent AI](https://x.com/ipagent_ai)
 
 ## Acknowledgments
-
-- Thanks to all contributors who have helped shape IPAgent
-- Special thanks to our early adopters and community members
