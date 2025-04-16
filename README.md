@@ -19,7 +19,7 @@ IPAgent is a platform that revolutionizes token staking through advanced AI-powe
 
 ```sh
 # Clone the repository
-git clone https://github.com/yourusername/ipagent.git
+git clone https://github.com/leomanza/ipagent.git
 
 # Navigate to project directory
 cd ipagent
