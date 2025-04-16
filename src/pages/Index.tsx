@@ -11,22 +11,21 @@ const Index = () => {
         <div className="flex flex-col lg:flex-row items-center justify-between gap-12">
           <div className="max-w-2xl">
             <div className="mb-8">
-              <img 
-                src="/images/ipagent-logo.png" 
+              {/* <img 
+                src="/images/IPAgent-logo.png" 
                 alt="IPAgent Logo" 
                 className="h-24 w-auto mb-4"
               />
               <div className="inline-block mb-4 px-4 py-1 bg-amber-100 rounded-full">
                 <span className="text-amber-800 font-medium text-sm">Powered by Meta Pool Multi Chain DAO</span>
-              </div>
+              </div> */}
               
               <h1 className="text-4xl md:text-6xl font-bold mb-6 text-gray-900">
                 <span className="text-amber-600">Brewing</span> the agentic future of token staking
               </h1>
               
               <p className="text-lg text-gray-700 mb-8">
-                IPAgent simplifies the process of staking IP tokens through conversational AI, 
-                powered by the Story Protocol Liquid Staking SDK. Stake your IP tokens to receive stIP and let our agent handle the technical details.
+              IPAgent simplifies IP token staking with conversational AI, powered by the in-house Story Protocol Liquid Staking SDK. Stake your IP tokens to receive stIP, our agent takes care of the rest.
               </p>
               
               <div className="flex flex-wrap gap-4">
@@ -68,10 +67,9 @@ const Index = () => {
       {/* Features Section */}
       <section className="container mx-auto py-20 px-4">
         <div className="text-center mb-16">
-          <h2 className="text-3xl font-bold mb-4 text-gray-900">Craft Intelligence, Unleashed Potential</h2>
+          <h2 className="text-3xl font-bold mb-4 text-gray-900">Crafted Intelligence, Unleashed Potential</h2>
           <p className="text-gray-700 max-w-2xl mx-auto">
-            Our agent harnesses cutting-edge AI with the Meta Pool Story Protocol Liquid Staking SDK - an innovative technology 
-            <span className="font-semibold text-amber-600"> built in-house</span> by our dedicated team.
+          Our agent fuses cutting-edge AI with the Story Protocol Liquid Staking SDK, an innovative <span className="font-semibold text-amber-600"> built in-house</span> solution brewed by our dedicated team.
           </p>
         </div>
         
@@ -136,7 +134,7 @@ const Index = () => {
           <div className="max-w-3xl mx-auto text-center">
             <h2 className="text-3xl font-bold mb-4 text-white">Ready to start brewing passive income?</h2>
             <p className="text-amber-50 mb-8">
-              Join the Meta Pool community of IP token stakers who are simplifying their crypto journey with IPAgent. Stake IP, receive stIP, and earn rewards.
+              Join the Meta Pool community of Story Protocol stakers who are simplifying their crypto journey with IPAgent. Stake IP, receive stIP, and earn rewards.
             </p>
             <Button className="bg-white text-amber-600 hover:bg-amber-50 font-medium px-8 py-6 rounded-lg text-lg">
               Launch IPAgent
@@ -155,15 +153,15 @@ const Index = () => {
             </div>
             
             <div className="flex gap-6">
-              <a href="#" className="hover:text-amber-400">Twitter</a>
+              <a href="https://x.com/ipagent_ai" className="hover:text-amber-400">Twitter</a>
               <a href="#" className="hover:text-amber-400">Discord</a>
-              <a href="#" className="hover:text-amber-400">GitHub</a>
+              <a href="https://github.com/leomanza/ipagent" className="hover:text-amber-400">GitHub</a>
               <a href="#" className="hover:text-amber-400">Documentation</a>
             </div>
           </div>
           <div className="border-t border-gray-800 pt-8 mt-8 text-center text-sm">
             <p>© 2025 IPAgent. Brewing the agentic future. All rights reserved.</p>
-            <p className="mt-2">Powered by <a href="#" className="text-amber-400 hover:underline">Meta Pool</a> using the <a href="https://github.com/leomanza/metapool-story-liquid-staking-sdk" className="text-amber-400 hover:underline" target="_blank" rel="noopener noreferrer">Story Protocol Liquid Staking SDK</a></p>
+            <p className="mt-2">Powered by <a href="https://www.metapool.app/" className="text-amber-400 hover:underline">Meta Pool</a> and <a href="https://www.story.foundation/" className="text-amber-400 hover:underline">Story Protocol</a> brewed with <a href="https://github.com/leomanza/metapool-story-liquid-staking-sdk" className="text-amber-400 hover:underline" target="_blank" rel="noopener noreferrer">Story Protocol Liquid Staking SDK</a></p>
           </div>
         </div>
       </footer>
